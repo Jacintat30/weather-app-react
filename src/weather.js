@@ -1,6 +1,5 @@
-import React, {useState} from "react";
 import React, { useState } from "react";
-import WeatherInfo from "./WeatherInfo.js";
+import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
 import "./Weather.css";
 export default function Weather(props) {
@@ -19,6 +18,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
     });
+    
   }
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Weather from "./Weather.css";
+import "./Weather.css";
 import "./App.css";
 
 export default function App() {
@@ -9,17 +9,17 @@ export default function App() {
         <Weather defaultCity="Houston" />
 
         <footer>
-          This project was coded by{" "}
-            Jacinta T
-            <a
-          href="https://github.com/Jacintat30/prodject-weather/tree/master/src"
-          target="-blank"
-        >
-          open-sourced on GitHub
-        </a>
+          This project was coded by Jacinta T,{" "}
+          <a
+            href="https://github.com/Jacintat30/prodject-weather/tree/master/src"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
           and{" "}
-         <a href="/">
-            hosted on Netlify
+          <a href="/" target="_blank" rel="noopener noreferrer">
+            hosted on Netlify.
           </a>
         </footer>
       </div>
