@@ -1,5 +1,6 @@
-import FormattedDate from "./FormattedDate.js";
-import WeatherIcon from "./WeatherIcon.js";
+import React from "react";
+import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 import WeatherTemp from "./WeatherTemp.js";
 
 export default function WeatherInfo(props) {
@@ -34,3 +35,5 @@ export default function WeatherInfo(props) {
     </div>
   );
 }
+
+
