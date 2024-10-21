@@ -6,15 +6,16 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <h1> Weather App</h1>
         <Weather defaultCity="Houston" />
-        {" "}
         <footer>
-          This project was coded by Jacinta T,{" "}
-          <a
-            href=""
-            target="_blank"
+          This project was coded by{" "}
+          <a 
+            href="https:\Users\jacin\OneDrive\Desktop\weather-app"
+            target="_blank" 
             rel="noopener noreferrer"
-          >
+            >
+              Jacinta Tandoh
             open-sourced on GitHub
           </a>{" "}
           and{" "}
