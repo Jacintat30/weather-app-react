@@ -1,5 +1,5 @@
 import React from "react";
-import Weather from "./Weather";
+import Weather.js from "./Weather.js";
 import "./App.css"
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a 
-            href="https:\Users\jacin\OneDrive\Desktop\weather-app"
+            href="https://github.com/Jacintat30/weather-app-react"
             target="_blank" 
             rel="noopener noreferrer"
             >
