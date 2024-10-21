@@ -28,7 +28,7 @@ export default function Weather(props) {
   function search() {
 
     const apiKey = "182a2fb198a6etcbecec6a40a9o4bb3f";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
   }
@@ -65,7 +65,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast coordinates={weatherData.coordinates} />
+        <WeatherForecast city={weatherData.city} />
       </div>
     );
   } else {
